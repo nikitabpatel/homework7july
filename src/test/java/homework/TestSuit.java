@@ -14,7 +14,7 @@ public class TestSuit extends BaseTest
     {
         clickOnElement(By.linkText("Jewelry"));
         clickOnElement(By.xpath("//*[@class='item-grid']/div[2]/div/div[2]/div[3]/div[2]/input[1]"));
-        waitForElementToBeInvisible(By.linkText("shopping cart"),2?@;'#]0);
+        waitForElementToBeInvisible(By.linkText("shopping cart"),20);
         clickOnElement(By.xpath("//*[@class='item-grid']/div[3]/div/div[2]/div[3]/div[2]/input[1]"));
         clickOnElement((By.linkText("shopping cart")));
         clearAndEnterText(By.xpath("//*[@value='1']"),"2");
